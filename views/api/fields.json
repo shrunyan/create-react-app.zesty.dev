@@ -1,0 +1,11 @@
+[
+    {{each posts as post}}
+    {
+        {{if {post.title} }}
+            "field_1": "{{post.title}}"
+        {{else}}
+            "field_1": "No Title"
+        {{end-if}}
+    },
+    {{end-each}}
+]

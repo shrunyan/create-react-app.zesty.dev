@@ -1,0 +1,5 @@
+{{each posts as post}}
+
+    {{homepage.title}}
+
+{{end-each}}
